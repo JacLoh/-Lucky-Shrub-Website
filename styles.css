@@ -8,9 +8,13 @@ body {
 }
 h1{
     font-size:3rem;
+    margin-top:2rem;
+    margin-left:1rem;
+
 }
 h2{
     font-size:2rem;
+    margin-left:10px
 }
 
 header>img{
@@ -18,22 +22,31 @@ header>img{
     margin-left:auto;
     margin-right:auto;
     max-width:200px;
-    max-height:130px;
+    max-height:150px;
+
 }
 
 nav ul{
+   
     list-style:none;
     text-align:center;
-    padding:0px;
-    margin:0px;
+    margin-bottom:0px;
     font-size:3rem;
+    background-color:lightgrey;
+    border-radius: 1rem;
+    font-weight:bold;
+    padding-bottom:5px;
+    padding-top:0rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    
 }
 nav li{
     display: inline-block;
     margin-left:1rem;
     margin-right:1rem;
     font-size:1.3rem;
-    
+  
 }
 
 section{
@@ -44,7 +57,75 @@ article{
     flex:1;
 }
 
-footer{
+
+body section:nth-of-type(1){
+    background-image: url('Garden_photo.jpg');
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the entire section */
+    background-position: center;
+    color:white;
+    padding-top:2rem;
+    border-radius: 0.5rem;
+}
+
+body section:nth-of-type(1) p {
+    margin-left:1rem;
+  
+}
+ul li{
+    list-style: none;
+}
+body section:nth-of-type(2){
+   
+   
+    border-radius:1rem;
+    padding-bottom:4rem;
+    margin-top:1rem;
+}
+body section:nth-of-type(2) h2{
+    max-width:20rem;
+    
+}
+
+body section:nth-of-type(2) p {
+    max-width:20rem;
+}
+
+footer {
+    margin-left:1.2rem;
     margin-top:3rem;
     font-size: 0.9rem;
+}
+
+body section:nth-of-type(2) {
+    gap:20x;
+}
+
+body section:nth-of-type(2) article{
+
+    background-color:antiquewhite;
+    margin-right:10px;
+    margin-left:10px;
+    border-radius: 1rem;
+    padding-bottom:4rem;
+}
+
+body section:nth-of-type(2) article p{
+    margin-left:10px;
+}
+
+body section:nth-of-type(2) article a{
+    margin-left:10px;
+}
+
+body section:nth-of-type(2) article img{
+    padding-left:10px;
+    border-radius: 2rem;
+    padding-top:2rem;
+
+    
+}
+body section:nth-of-type(2) article:nth-of-type(2) img{
+    padding-top:0rem;
+
 }
